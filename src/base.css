@@ -1,0 +1,61 @@
+:root {
+  /* Colors: opacity color variants are RGB equivalents to RGBA assuming a white background */
+  --black-color: rgb(0, 0, 0);
+  --gray-color-02: rgba(0, 0, 0, 0.02);
+  --gray-color-34: rgba(97, 97, 97, 0.34);
+  --gray-color-04: rgba(0, 0, 0, 0.04);
+  --gray-color-12: rgba(0, 0, 0, 0.12);
+  --gray-color-32: rgba(0, 0, 0, 0.32);
+  --gray-color-38: rgba(0, 0, 0, 0.38);
+  --gray-color-60: rgba(0, 0, 0, 0.6);
+  --gray-color-74: rgba(0, 0, 0, 0.74);
+  --gray-color-18-74: rgba(18, 18, 18, 0.74);
+  --gray-color-80: rgba(0, 0, 0, 0.8);
+  --gray-color-87: rgba(0, 0, 0, 0.87);
+  --brand-color-4: rgba(10, 204, 134, 0.04);
+  --brand-color-8: rgba(10, 204, 134, 0.08);
+  --brand-color-10: rgba(10, 204, 134, 0.1);
+  --brand-color-12: rgba(10, 204, 134, 0.12);
+  --brand-color-38: rgba(10, 204, 134, 0.38);
+  --brand-color-60: rgba(10, 204, 134, 0.6);
+  --brand-color: rgb(10, 204, 134);
+  --primary-color-237: rgb(228, 248, 237);
+  --primary-color-212: rgb(189, 237, 212);
+  --primary-color-184: rgb(144, 255, 184);
+  --primary-color-155: rgb(88, 214, 155);
+  --primary-color-110: rgb(0, 194, 110);
+  --primary-color-99: rgb(0, 178, 99);
+  --primary-color-86: rgb(0, 159, 86);
+  --primary-color-73: rgb(0, 142, 73);
+  --primary-color-51: rgb(0, 109, 51);
+  --error-color: rgb(176, 0, 32);
+  --error-color-20: rgba(176, 0, 32, 20);
+  --error-color-cf6679: rgb(207, 102, 121);
+  --outline-color: var(--brand-color);
+  --outline-color-gray: var(--gray-color-12);
+  --outline-color-dark: var(--white-color-12);
+  --yellow: rgba(247, 181, 0, 0.35);
+  --yellow-dark: #f7b500;
+  --divider-color: #dfdfdf;
+  --application-background-color: #f4f6f8;
+  --enquirer-avatar-color: #00aff8;
+  --text-color: var(--gray-color-60);
+  --secondary-color: #111b3c;
+  --link-color: #0091ff;
+  --warning-color: #fce5a6;
+}
+
+html,
+body {
+  background-color: var(--application-background-color);
+  font-family: sans-serif;
+}
+
+.container {
+  padding: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 100vw;
+}
