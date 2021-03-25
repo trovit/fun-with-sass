@@ -1,6 +1,6 @@
 # Fun with Sass
 
-This is a project to practice Sass basics in a mob with yout team to discover what Sass can offer to you and find out if it's valuable for your styles use cases.
+This is a project to practice Sass basics in a mob with your team to discover what Sass can offer to you and find out if it's valuable for your styles use cases.
 
 ## Requierements
 * Last node.js LTS version.
@@ -15,6 +15,6 @@ This is a project to practice Sass basics in a mob with yout team to discover wh
 
 ## Resources
 * [Sass docs](https://sass-lang.com/documentation) 
-    * [Nesting](https://sass-lang.com/documentation/style-rules)
+    * [Nesting](https://sass-lang.com/documentation/style-rules#nesting)
     * [Parent selectors](https://sass-lang.com/documentation/style-rules/parent-selector)
-    * @extend: https://sass-lang.com/documentation/at-rules/extend
+    * [@extend](https://sass-lang.com/documentation/at-rules/extend)
