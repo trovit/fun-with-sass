@@ -11,6 +11,7 @@ const App = () => (
     <Button color="secondary">I am a secondary Proppit Button :/</Button>
     <Button disabled>I am a disabled Proppit Button :(</Button>
     <Button variant="outlined">I am a outlined Proppit Button :O</Button>
+    <Button variant="outlined" color="secondary">I am a outlined secondary Proppit Button D:</Button>
     <Button variant="text">I am a text Proppit Button :I</Button>
   </div>
 );
