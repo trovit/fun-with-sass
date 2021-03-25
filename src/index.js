@@ -12,7 +12,9 @@ const App = () => (
     <Button disabled>I am a disabled Proppit Button :(</Button>
     <Button variant="outlined">I am a outlined Proppit Button :O</Button>
     <Button variant="outlined" color="secondary">I am a outlined secondary Proppit Button D:</Button>
+    <Button variant="outlined" color="secondary" disabled>I am a disabled outlined secondary Proppit Button :S</Button>
     <Button variant="text">I am a text Proppit Button :I</Button>
+    <Button variant="text" disabled>I am a disabled text Proppit Button :X</Button>
   </div>
 );
 
