@@ -37,27 +37,19 @@ button.Button {
       background-color: var(--gray-color-04);
     }
   }
-}
 
-.Button.Button--contained-primary:hover .MuiTouchRipple-root {
-  background-color: var(--gray-color-04);
-}
+  .MuiTouchRipple-rippleVisible {
+    opacity: 0.25;
+    background-color: #15b577;
+  }
 
-.Button .MuiTouchRipple-rippleVisible {
-  opacity: 0.25;
-  background-color: #15b577;
-}
+  &--variant-text {
+    color: var(--color-primary);
 
-.Button .MuiTouchRipple-child {
-  opacity: 0.25;
-}
-
-.Button.Button--variant-text {
-  color: var(--color-primary);
-}
-
-.Button--variant-text:hover {
-  background-color: var(--brand-color-4);
+    &:hover {
+      background-color: var(--brand-color-4);
+    }
+  }
 }
 
 .Button.Button--variant-text.Button--disabled {
