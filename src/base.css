@@ -43,6 +43,14 @@
   --secondary-color: #111b3c;
   --link-color: #0091ff;
   --warning-color: #fce5a6;
+
+  --white-color: rgb(255, 255, 255);
+  --white-color-12: rgb(255, 255, 255);
+  --color-primary: #001b3a;
+  --color-secondary: var(--black-color);
+  --color-brand-hover: rgb(50, 196, 128);
+  --color-brand-pressed: rgb(46, 183, 120);
+  --color-focus-outlined: rgb(23, 203, 133);
 }
 
 html,
@@ -58,4 +66,8 @@ body {
   align-items: center;
   gap: 1rem;
   width: 100vw;
+}
+
+button.Button {
+
 }

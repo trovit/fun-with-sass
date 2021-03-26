@@ -1,38 +1,26 @@
-
-
 button.Button {
-  --white-color: rgb(255, 255, 255);
-  --black-color: rgb(0, 0, 0);
-  --brand-color: rgb(10, 204, 134);
-  --brand-color-4: rgba(10, 204, 134, 0.04);
-  --brand-color-12: rgba(10, 204, 134, 0.12);
-  --gray-color-04: rgba(0, 0, 0, 0.04);
-  --gray-color-38: rgba(0, 0, 0, 0.38);
-  --color-primary: #001b3a;
-  --color-secondary: var(--black-color);
-  --color-brand-hover: rgb(50, 196, 128);
-  --color-brand-pressed: rgb(46, 183, 120);
-  --color-focus-outlined: rgb(23, 203, 133);
   font-weight: bolder;
 }
 
-.Button.Button--contained-secondary {
-  background-color: var(--white-color);
-  color: var(--brand-color);
-}
+.Button {
+  &.Button--contained-secondary {
+    background-color: var(--white-color);
+    color: var(--brand-color);
 
-.Button.Button--contained-secondary:hover {
-  background-color: rgba(255, 255, 255, 0.94);
-}
+    &:hover {
+      background-color: rgba(255, 255, 0, 0.94);
+    }
+  }
 
-.Button.Button--variant-outlined.Button--outlined-secondary {
-  background-color: transparent;
-  color: var(--black-color);
-  border-color: var(--black-color);
-}
+  &.Button--variant-outlined.Button--outlined-secondary {
+    background-color: transparent;
+    color: var(--black-color);
+    border-color: var(--black-color);
+  }
 
-.Button.Button--variant-outlined.Button--outlined-secondary:hover {
-  border-color: var(--black-color);
+  &.Button--variant-outlined.Button--outlined-secondary:hover {
+    border-color: var(--black-color);
+  }
 }
 
 .Button.Button--contained-primary {
@@ -94,3 +82,4 @@ button.Button {
 .Button.Button--variant-outlined.Button--disabled {
   color: var(--gray-color-38);
 }
+
