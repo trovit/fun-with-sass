@@ -1,8 +1,5 @@
 button.Button {
   font-weight: bolder;
-}
-
-.Button {
   &.Button--contained-secondary {
     background-color: var(--white-color);
     color: var(--brand-color);
@@ -12,32 +9,34 @@ button.Button {
     }
   }
 
-  &.Button--variant-outlined.Button--outlined-secondary {
-    background-color: transparent;
-    color: var(--black-color);
-    border-color: var(--black-color);
+  &.Button--outlined-secondary {
+    &.Button--variant-outlined {
+      background-color: transparent;
+      color: var(--black-color);
+      border-color: var(--black-color);
+
+      &:hover {
+        border-color: var(--black-color);
+      }
+    }
   }
 
-  &.Button--variant-outlined.Button--outlined-secondary:hover {
-    border-color: var(--black-color);
+  &--contained-primary {
+    background-color: var(--brand-color);
+    color: var(--color-secondary);
+    box-shadow: none;
+    letter-spacing: 1.25px;
+
+    &:hover {
+      background-color: var(--brand-color);
+      box-shadow: none;
+    }
+
+    &.Button--disabled {
+      color: var(--gray-color-38);
+      background-color: var(--gray-color-04);
+    }
   }
-}
-
-.Button.Button--contained-primary {
-  background-color: var(--brand-color);
-  color: var(--color-secondary);
-  box-shadow: none;
-  letter-spacing: 1.25px;
-}
-
-.Button.Button--contained-primary:hover {
-  background-color: var(--brand-color);
-  box-shadow: none;
-}
-
-.Button.Button--contained-primary.Button--disabled {
-  color: var(--gray-color-38);
-  background-color: var(--gray-color-04);
 }
 
 .Button.Button--contained-primary:hover .MuiTouchRipple-root {
