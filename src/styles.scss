@@ -1,5 +1,6 @@
 button.Button {
   font-weight: bolder;
+
   &.Button--contained-secondary {
     background-color: var(--white-color);
     color: var(--brand-color);
@@ -9,7 +10,7 @@ button.Button {
     }
   }
 
-  &.Button--outlined-secondary {
+  &--outlined-secondary {
     &.Button--variant-outlined {
       background-color: transparent;
       color: var(--black-color);
@@ -49,28 +50,27 @@ button.Button {
     &:hover {
       background-color: var(--brand-color-4);
     }
+
+    &.Button--disabled {
+      color: var(--gray-color-38);
+    }
+  }
+
+  &--variant-outlined {
+    color: var(--color-secondary);
+    border: solid 1px var(--black-color);
+
+    &:hover {
+      background-color: var(--brand-color-4);
+    }
+
+    &:focus {
+      background-color: var(--brand-color-12);
+      box-shadow: 0 0 0 2px var(--color-focus-outlined);
+    }
+
+    &.Button--disabled {
+      color: var(--gray-color-38);
+    }
   }
 }
-
-.Button.Button--variant-text.Button--disabled {
-  color: var(--gray-color-38);
-}
-
-.Button.Button--variant-outlined {
-  color: var(--color-secondary);
-  border: solid 1px var(--black-color);
-}
-
-.Button.Button--variant-outlined:hover {
-  background-color: var(--brand-color-4);
-}
-
-.Button.Button--variant-outlined:focus {
-  background-color: var(--brand-color-12);
-  box-shadow: 0 0 0 2px var(--color-focus-outlined);
-}
-
-.Button.Button--variant-outlined.Button--disabled {
-  color: var(--gray-color-38);
-}
-
